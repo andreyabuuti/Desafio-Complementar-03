@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Formulários</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="name">Nome: </label>
+        <input type="text" name="name">
+
+        <label for="sobrenome">Sobrenome: </label>
+        <input type="text" name="sobrenome">
+
+        <p>Gênero</p>
+        <select name="genero" id="genero">
+            <option value="genero_feminino">Feminino</option>
+            <option value="genero_masculino">Masculino</option>
+        </select>
+
+        <div>
+            <p>Cor favorita: </p>
+
+            <span>Vermelho</span>
+            <input type="checkbox" name="Cor-Favorita" id="vermelho">
+            
+            <span>Verde</span>
+            <input type="checkbox" name="Cor-Favorita" id="Verde">
+
+            <span>Amarelo</span>
+            <input type="checkbox" name="Cor-Favorita" id="Amarelo">
+        </div>
+
+        <div>
+            <p>Cor favorita (apenas uma): </p>
+
+            <span>Vermelho</span>
+            <input type="radio" name="Apenas-Uma-Cor" id="Vemelho">
+
+            <span>Verde</span>
+            <input type="radio" name="Apenas-Uma-Cor" id="Verde">
+
+            <span>Azul</span>
+            <input type="radio" name="Apenas-Uma-Cor" id="Azul">
+        </div>
+
+        <p>Data de Nascimento: </p>
+        <input type="date" name="Data-Nascimento" id="Data-Nascimento">
+
+        <p>E-mail: </p>
+        <input type="email" name="email" id="email">
+
+        <p>Senha: </p> 
+        <input type="password" name="password" id="password">
+
+        <br><br>
+        <button type="submit">Enviar Formulário</button>
+        <button type="reset">Limpar Formulário</button> 
+    </form>
+    
+</body>
+</html>
